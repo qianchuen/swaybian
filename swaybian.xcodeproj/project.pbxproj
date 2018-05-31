@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624A4BB820B994F900ADE059 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BB720B994F900ADE059 /* Plant.swift */; };
+		624A4BDC20B9A46400ADE059 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBC20B99FCE00ADE059 /* PlantDetailViewController.swift */; };
+		624A4BDD20B9A46500ADE059 /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */; };
+		624A4BDE20B9A46700ADE059 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */; };
 		626AEB5220A4D1830084F289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB5120A4D1830084F289 /* AppDelegate.swift */; };
 		626AEB5420A4D1830084F289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB5320A4D1830084F289 /* ViewController.swift */; };
 		626AEB5720A4D1830084F289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB5520A4D1830084F289 /* Main.storyboard */; };
 		626AEB5920A4D1830084F289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB5820A4D1830084F289 /* Assets.xcassets */; };
 		626AEB5C20A4D1830084F289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB5A20A4D1830084F289 /* LaunchScreen.storyboard */; };
-		626AEB6720A4D2700084F289 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6320A4D2700084F289 /* PlantTableViewCell.swift */; };
-		626AEB6820A4D2700084F289 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6420A4D2700084F289 /* PlantDetailViewController.swift */; };
-		626AEB6920A4D2700084F289 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6520A4D2700084F289 /* MainPageViewController.swift */; };
-		626AEB6A20A4D2700084F289 /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6620A4D2700084F289 /* PlantTableViewController.swift */; };
+		68732DC220C0650E00F3F997 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68732DC120C0650E00F3F997 /* PlantTableViewCell.swift */; };
+		68732DC620C0700E00F3F997 /* plantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68732DC520C0700E00F3F997 /* plantDetailHeaderView.swift */; };
+		68732DC820C07B1F00F3F997 /* plantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68732DC720C07B1F00F3F997 /* plantDetailIconTextCell.swift */; };
+		68732DCA20C07BCA00F3F997 /* plantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68732DC920C07BCA00F3F997 /* plantDetailTextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		624A4BB720B994F900ADE059 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		624A4BBC20B99FCE00ADE059 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
+		624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
 		626AEB4E20A4D1830084F289 /* swaybian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swaybian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626AEB5120A4D1830084F289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		626AEB5320A4D1830084F289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +34,10 @@
 		626AEB5820A4D1830084F289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626AEB5B20A4D1830084F289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626AEB5D20A4D1830084F289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		626AEB6320A4D2700084F289 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlantTableViewCell.swift; path = "../../蝴蝶/midterm/PlantTableViewCell.swift"; sourceTree = "<group>"; };
-		626AEB6420A4D2700084F289 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlantDetailViewController.swift; path = "../../蝴蝶/midterm/PlantDetailViewController.swift"; sourceTree = "<group>"; };
-		626AEB6520A4D2700084F289 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewController.swift; path = "../../蝴蝶/midterm/MainPageViewController.swift"; sourceTree = "<group>"; };
-		626AEB6620A4D2700084F289 /* PlantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlantTableViewController.swift; path = "../../蝴蝶/midterm/PlantTableViewController.swift"; sourceTree = "<group>"; };
+		68732DC120C0650E00F3F997 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		68732DC520C0700E00F3F997 /* plantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = plantDetailHeaderView.swift; path = Assets.xcassets/plantDetailHeaderView.swift; sourceTree = "<group>"; };
+		68732DC720C07B1F00F3F997 /* plantDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantDetailIconTextCell.swift; sourceTree = "<group>"; };
+		68732DC920C07BCA00F3F997 /* plantDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantDetailTextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +70,20 @@
 		626AEB5020A4D1830084F289 /* swaybian */ = {
 			isa = PBXGroup;
 			children = (
-				626AEB6520A4D2700084F289 /* MainPageViewController.swift */,
-				626AEB6420A4D2700084F289 /* PlantDetailViewController.swift */,
-				626AEB6320A4D2700084F289 /* PlantTableViewCell.swift */,
-				626AEB6620A4D2700084F289 /* PlantTableViewController.swift */,
+				624A4BBC20B99FCE00ADE059 /* PlantDetailViewController.swift */,
+				624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */,
+				624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */,
+				68732DC120C0650E00F3F997 /* PlantTableViewCell.swift */,
 				626AEB5120A4D1830084F289 /* AppDelegate.swift */,
 				626AEB5320A4D1830084F289 /* ViewController.swift */,
 				626AEB5520A4D1830084F289 /* Main.storyboard */,
+				68732DC920C07BCA00F3F997 /* plantDetailTextCell.swift */,
+				68732DC720C07B1F00F3F997 /* plantDetailIconTextCell.swift */,
+				68732DC520C0700E00F3F997 /* plantDetailHeaderView.swift */,
 				626AEB5820A4D1830084F289 /* Assets.xcassets */,
 				626AEB5A20A4D1830084F289 /* LaunchScreen.storyboard */,
 				626AEB5D20A4D1830084F289 /* Info.plist */,
+				624A4BB720B994F900ADE059 /* Plant.swift */,
 			);
 			path = swaybian;
 			sourceTree = "<group>";
@@ -147,12 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626AEB6920A4D2700084F289 /* MainPageViewController.swift in Sources */,
 				626AEB5420A4D1830084F289 /* ViewController.swift in Sources */,
-				626AEB6720A4D2700084F289 /* PlantTableViewCell.swift in Sources */,
+				624A4BDE20B9A46700ADE059 /* MainPageViewController.swift in Sources */,
 				626AEB5220A4D1830084F289 /* AppDelegate.swift in Sources */,
-				626AEB6820A4D2700084F289 /* PlantDetailViewController.swift in Sources */,
-				626AEB6A20A4D2700084F289 /* PlantTableViewController.swift in Sources */,
+				624A4BDC20B9A46400ADE059 /* PlantDetailViewController.swift in Sources */,
+				68732DC620C0700E00F3F997 /* plantDetailHeaderView.swift in Sources */,
+				68732DCA20C07BCA00F3F997 /* plantDetailTextCell.swift in Sources */,
+				68732DC220C0650E00F3F997 /* PlantTableViewCell.swift in Sources */,
+				68732DC820C07B1F00F3F997 /* plantDetailIconTextCell.swift in Sources */,
+				624A4BB820B994F900ADE059 /* Plant.swift in Sources */,
+				624A4BDD20B9A46500ADE059 /* PlantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
