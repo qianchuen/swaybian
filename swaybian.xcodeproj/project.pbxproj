@@ -11,6 +11,7 @@
 		624A4BDC20B9A46400ADE059 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBC20B99FCE00ADE059 /* PlantDetailViewController.swift */; };
 		624A4BDD20B9A46500ADE059 /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */; };
 		624A4BDE20B9A46700ADE059 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */; };
+		624A4BE220C0823F00ADE059 /* uploaddd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A4BE120C0823F00ADE059 /* uploaddd.swift */; };
 		626AEB5220A4D1830084F289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB5120A4D1830084F289 /* AppDelegate.swift */; };
 		626AEB5420A4D1830084F289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB5320A4D1830084F289 /* ViewController.swift */; };
 		626AEB5720A4D1830084F289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB5520A4D1830084F289 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		624A4BBC20B99FCE00ADE059 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
 		624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
+		624A4BE120C0823F00ADE059 /* uploaddd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploaddd.swift; sourceTree = "<group>"; };
 		626AEB4E20A4D1830084F289 /* swaybian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swaybian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626AEB5120A4D1830084F289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		626AEB5320A4D1830084F289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				624A4BBD20B99FD300ADE059 /* PlantTableViewController.swift */,
 				624A4BBA20B99FA700ADE059 /* MainPageViewController.swift */,
 				68732DC120C0650E00F3F997 /* PlantTableViewCell.swift */,
+				624A4BE120C0823F00ADE059 /* uploaddd.swift */,
 				626AEB5120A4D1830084F289 /* AppDelegate.swift */,
 				626AEB5320A4D1830084F289 /* ViewController.swift */,
 				626AEB5520A4D1830084F289 /* Main.storyboard */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624A4BE220C0823F00ADE059 /* uploaddd.swift in Sources */,
 				626AEB5420A4D1830084F289 /* ViewController.swift in Sources */,
 				624A4BDE20B9A46700ADE059 /* MainPageViewController.swift in Sources */,
 				626AEB5220A4D1830084F289 /* AppDelegate.swift in Sources */,
